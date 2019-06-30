@@ -28,6 +28,22 @@ python2.7
 postgresql
 ```
 
+## Configuration Changes
+
+#### AWS Lightsail / Linux
+- Enabled TCP port 2200
+- Enabled NTP port 123
+- Disabled SSH port 22
+- Created user `grader` and enabled sudo access
+- Added authorized key for ssh access
+
+### Installation
+- Copied application to `/var/www/html`
+- Initialized postgres database
+
+### Apache2 Configuration
+- Updated WSGI path and addess wsgi script for applicartion under `/var/www/html`
+
 ## Python Dependenices
 ```
 flask
@@ -44,4 +60,6 @@ SQLAlchemy
 
 ## Reference
 
-https://github.com/nehakalbhore/udacity-itemcatalog-cooking-blog
+- https://github.com/nehakalbhore/udacity-itemcatalog-cooking-blog
+- https://stackoverflow.com/
+- Google OAuth APIs
