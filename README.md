@@ -41,3 +41,7 @@ psycopg2
 requests
 SQLAlchemy
 ```
+
+## Reference
+
+https://github.com/nehakalbhore/udacity-itemcatalog-cooking-blog
