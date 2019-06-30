@@ -1,5 +1,7 @@
 # Cooking Blog Web Application
 
+This document provides hosting detail of the cooking blog item catalog application.
+
 ## Host
 ```
 IP Address: 54.218.100.75
