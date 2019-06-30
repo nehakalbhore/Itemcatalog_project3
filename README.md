@@ -9,6 +9,8 @@ SSH Port: 2200
 ### Remote Access
 ```
 ssh -i ~/.ssh/grader grader@54.218.100.75 -p 2200
+
+# Note: Private key for user grader is provided with submission notes.
 ```
 
 ## Live URL
